@@ -3,7 +3,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Student from "./app/pages/Student.jsx";
 import Home from "./app/pages/Home.jsx";
 import Contact from "./app/pages/Contact.jsx";
-import Header from "./app/ui/Navbar.jsx";
+import Header from "./app/ui/Header.jsx";
 function App() {
   return (
     <>
