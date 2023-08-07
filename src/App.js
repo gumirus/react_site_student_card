@@ -1,10 +1,9 @@
 import React from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
-import Student from "./pages/Student";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import Header from "./components/Header";
-
+import Student from "./app/pages/Student.jsx";
+import Home from "./app/pages/Home.jsx";
+import Contact from "./app/pages/Contact.jsx";
+import Header from "./app/ui/Navbar.jsx";
 function App() {
   return (
     <>
